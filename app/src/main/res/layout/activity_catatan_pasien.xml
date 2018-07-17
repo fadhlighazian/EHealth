@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="id.ac.umn.ehealth.CatatanPasienActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:text="Deskripsikan rasa sakit yang anda alami" />
+    <EditText
+        android:id="@+id/txtDesktripsiSakit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blueSky"
+        android:textSize="15dp"
+        android:hint="Disini Anda bebas menjelaskan apa saja mengenai sakit yang anda alami"
+        android:layout_weight="0.5" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:text="Apakah Anda memiliki alergi terhadap obat tertentu?" />
+    <EditText
+        android:id="@+id/txtAlergiObat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blueSky"
+        android:textSize="15dp"
+        android:hint="Jika anda memiliki alergi terhadap obat obatan tertentu, Anda dapat menjelaskannya kepada kami, jika tidak ada cukup abaikan pesan ini"
+        android:layout_weight="0.5" />
+    <Button
+        android:id="@+id/btnKirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Kirim"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="id.ac.umn.ehealth.LamaWaktuActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Sudah berapa lama anda merasakan sakit di bagian tersebut ?" />
+    <ImageView
+        android:id="@+id/defaultImg"
+        android:src="@drawable/eye"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"/>
+    <TextView />
+
+    <SeekBar
+        android:id="@+id/seekbarWaktu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:max="30"
+        android:progress="0"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="0"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Apakah anda pernah mengalami rasa sakit yang sama sebelumnya ?"/>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnTidak"
+            android:layout_weight="1"
+            android:text="Tidak"
+            />
+        <Button
+            android:id="@+id/btnYa"
+            android:layout_weight="1"
+            android:text="Ya"/>
+    </TableRow>
+
+</TableLayout>

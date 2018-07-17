@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EHealth</string>
+    <string-array name="titles">
+        <item>Decolgen</item>
+        <item>Hansaplast</item>
+        <item>Mixagrip</item>
+        <item>Panadol</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Decolgen Description</item>
+        <item>Hansaplast Description</item>
+        <item>Mixagrip Description</item>
+        <item>Panadol Description</item>
+    </string-array>
+</resources>

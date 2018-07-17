@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context="id.ac.umn.ehealth.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imgMain"
+        android:src="@drawable/logo"
+        android:layout_width="160dp"
+        android:layout_height="256dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TableRow>
+        <EditText
+            android:id="@+id/txtUsername"
+            android:hint="Username"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:id="@+id/txtPassword"
+            android:hint="Password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_weight="1"
+            android:text="Login"
+            />
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_weight="1"
+            android:text="Register"/>
+    </TableRow>
+
+</TableLayout>
